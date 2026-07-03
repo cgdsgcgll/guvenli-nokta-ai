@@ -1,12 +1,9 @@
 # Sprint 1
 
 ## Sprint Amacı
-Güvenli Nokta AI projesinin temel fikrini netleştirmek, takım rollerini belirlemek, product backlog hazırlamak, GitHub reposunu düzenlemek ve ilk arayüz/prototip çalışmalarına başlamak.
+Güvenli Nokta AI projesinin temel fikrini netleştirmek, product backlog hazırlamak, GitHub reposunu düzenlemek ve ilk arayüz/prototip çalışmalarına başlamak.
 
 ## Sprint 1 Hedefleri
-- Takım isminin belirlenmesi
-- Scrum Master ve Product Owner rollerinin belirlenmesi
-- Ürün fikrinin netleştirilmesi
 - Hedef kitlenin belirlenmesi
 - Product backlog hazırlanması
 - GitHub reposunun oluşturulması
