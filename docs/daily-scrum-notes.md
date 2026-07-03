@@ -2,7 +2,7 @@
 
 ## 26 Haziran 2026
 
-### Dün ne yapıldı?
+### Önceki toplantıda ne yapıldı?
 Proje fikri üzerine konuşuldu ve deprem odaklı bir ürün geliştirme kararı alındı.
 
 ### Bugün ne yapılacak?
