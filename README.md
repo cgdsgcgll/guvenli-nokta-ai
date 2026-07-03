@@ -4,10 +4,11 @@
 Takım ismi henüz belirlenecek.
 
 ## Takım Üyeleri ve Rolleri
-- Ahmet Çağdaş Geçgül - Developer
-- Takım Üyesi 2 - Product Owner
-- Takım Üyesi 3 - Scrum Master
-- Takım Üyesi 4 - Developer
+- Ahmet Çağdaş Geçgül - Scrum Master
+- Atagün Körükmez - Product Owner
+- Ömer Faruk Yurtdakal - Developer
+- Nesibe Şeyma Can - Developer
+- Berat Karagöl - Developer
 
 ## Ürün İsmi
 Güvenli Nokta AI
