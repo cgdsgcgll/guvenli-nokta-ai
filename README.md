@@ -6,7 +6,7 @@ Güvenli Nokta AI, kullanıcıların ev içi deprem risklerini analiz etmelerine
 
 ## Takım İsmi
 
-QuakeGuard Team
+**QuakeGuard Team**
 ---
 
 ## Takım Üyeleri ve Rolleri
