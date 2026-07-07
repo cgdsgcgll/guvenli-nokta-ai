@@ -173,6 +173,10 @@ Daily Scrum notları takımın ilerleyişini takip etmek için hazırlanmıştı
 
 ---
 
+### Daily Scrum Toplantı Ekran Görüntüsü
+
+![Daily Scrum Meeting](assets/screenshots/daily-scrum-meeting.png)
+
 ## Sprint Board Updates
 
 Sprint 1 görevleri GitHub Projects üzerinde **Todo**, **In Progress** ve **Done** sütunlarıyla takip edilmiştir.
