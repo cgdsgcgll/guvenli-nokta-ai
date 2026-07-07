@@ -1,61 +1,175 @@
 # Güvenli Nokta AI
 
 ## Takım İsmi
+
 Takım ismi henüz belirlenecek.
 
 ## Takım Üyeleri ve Rolleri
-- Ahmet Çağdaş Geçgül - Scrum Master
-- Atagün Körükmez - Product Owner
-- Ömer Faruk Yurtdakal - Developer
-- Nesibe Şeyma Can - Developer
-- Berat Karagöl - Developer
+
+| İsim                 | Rol           |
+| -------------------- | ------------- |
+| Ahmet Çağdaş Geçgül  | Scrum Master  |
+| Atagün Körükmez      | Product Owner |
+| Ömer Faruk Yurtdakal | Developer     |
+| Nesibe Şeyma Can     | Developer     |
+| Berat Karagöl        | Developer     |
 
 ## Ürün İsmi
-Güvenli Nokta AI
+
+**Güvenli Nokta AI**
 
 ## Ürün Açıklaması
-Güvenli Nokta AI, kullanıcıların ev içi deprem risklerini analiz etmelerine yardımcı olan yapay zeka destekli bir hazırlık asistanıdır. Kullanıcı; odalar, büyük eşyalar, cam kenarları, çıkış noktaları, aile yapısı ve deprem çantası durumu gibi bilgileri girer. Sistem bu bilgilere göre riskli alanları belirler, daha güvenli noktalar önerir, alınması gereken önlemleri listeler ve kullanıcıya kişisel bir deprem hazırlık puanı sunar.
+
+Güvenli Nokta AI, kullanıcıların ev içi deprem risklerini analiz etmelerine yardımcı olan yapay zeka destekli bir hazırlık asistanıdır. Kullanıcı; oda sayısı, büyük eşyalar, cam kenarları, çıkış noktaları, aile yapısı ve deprem çantası durumu gibi bilgileri sisteme girer. Sistem bu bilgilere göre riskli alanları belirler, daha güvenli noktalar önerir, alınması gereken önlemleri listeler ve kullanıcıya kişisel bir deprem hazırlık puanı sunar.
+
+Bu proje, bireylerin ve ailelerin deprem öncesinde daha bilinçli, planlı ve hazırlıklı olmasını amaçlar.
 
 ## Problem
-Deprem riski yüksek bölgelerde yaşayan birçok kişi, ev içerisindeki riskli alanları, sabitlenmesi gereken eşyaları ve deprem öncesi hazırlık seviyesini tam olarak bilmemektedir. Bu durum deprem anında can güvenliği açısından risk oluşturmaktadır.
+
+Deprem riski yüksek bölgelerde yaşayan birçok kişi, ev içerisindeki riskli alanları ve sabitlenmesi gereken eşyaları tam olarak bilmemektedir. Ayrıca deprem çantası, aile buluşma noktası ve acil durum planı gibi hazırlıklar çoğu zaman eksik kalmaktadır.
+
+Bu durum deprem anında can güvenliği açısından ciddi riskler oluşturabilir. Kullanıcıların kendi evlerine özel, anlaşılır ve uygulanabilir önerilere ihtiyaçları vardır.
 
 ## Çözüm
-Güvenli Nokta AI, kullanıcının verdiği bilgilere göre ev içi risk analizi yapar, güvenli alan önerileri sunar, deprem çantası eksiklerini belirler ve kişiye özel hazırlık önerileri üretir.
+
+Güvenli Nokta AI, kullanıcının verdiği ev ve aile bilgilerine göre kişiselleştirilmiş deprem hazırlık analizi yapar. Sistem; ev içi riskleri belirler, güvenli nokta önerileri sunar, deprem çantası eksiklerini tespit eder ve kullanıcıya hazırlık puanı verir.
+
+Yapay zeka desteğiyle kullanıcıya sade, anlaşılır ve günlük hayatta uygulanabilir öneriler sunulması hedeflenmektedir.
 
 ## Hedef Kitle
-- Evinde deprem hazırlığı yapmak isteyen bireyler
-- Aileler
-- Öğrenciler
-- Yaşlı, çocuk veya evcil hayvan bulunan haneler
-- Deprem bilincini artırmak isteyen kullanıcılar
+
+* Evinde deprem hazırlığı yapmak isteyen bireyler
+* Aileler
+* Öğrenciler
+* Yaşlı, çocuk veya evcil hayvan bulunan haneler
+* Deprem bilincini artırmak isteyen kullanıcılar
+* Deprem bölgesinde yaşayan kullanıcılar
 
 ## Ürün Özellikleri
-- Ev içi deprem risk analizi
-- Güvenli nokta önerisi
-- Deprem çantası eksik analizi
-- Hazırlık puanı hesaplama
-- AI destekli öneri sistemi
-- Kullanıcı paneli
-- Deprem hazırlık chatbotu
+
+* Ev içi deprem risk analizi
+* Güvenli nokta önerisi
+* Deprem çantası eksik analizi
+* Hazırlık puanı hesaplama
+* AI destekli kişisel öneri sistemi
+* Kullanıcı paneli
+* Deprem hazırlık chatbotu
+* Aile acil durum planı önerisi
+* Riskli alanlar ve eksik hazırlıklar listesi
 
 ## Kullanılacak Teknolojiler
-- Frontend: React
-- Backend: Node.js / Express veya FastAPI
-- Yapay Zeka: Gemini API veya benzer LLM API
-- Veritabanı: Firebase / MongoDB
-- Proje Yönetimi: GitHub Projects
 
-## Sprint 1 Hedefleri
-- Proje fikrinin netleştirilmesi
-- Takım rollerinin belirlenmesi
-- GitHub reposunun oluşturulması
-- README dosyasının hazırlanması
-- Product backlog oluşturulması
-- İlk arayüz taslaklarının planlanması
-- Risk analizi kriterlerinin belirlenmesi
+* **Frontend:** React
+* **Backend:** Node.js / Express veya FastAPI
+* **Yapay Zeka:** Gemini API veya benzer LLM API
+* **Veritabanı:** Firebase / MongoDB
+* **Proje Yönetimi:** GitHub Projects
+* **Dokümantasyon:** Markdown
+
+## Proje Klasör Yapısı
+
+```text
+guvenli-nokta-ai/
+│
+├── README.md
+│
+├── docs/
+│   ├── product-backlog.md
+│   ├── sprint-1.md
+│   ├── daily-scrum-notes.md
+│   ├── sprint-review.md
+│   └── sprint-retrospective.md
+│
+├── assets/
+│   └── screenshots/
+│       ├── sprint-board.png
+│       ├── product-backlog.png
+│       ├── wireframe-home.png
+│       ├── wireframe-form.png
+│       └── wireframe-result.png
+│
+├── frontend/
+├── backend/
+└── ai/
+```
 
 ## Product Backlog
-Product backlog dosyası: `docs/product-backlog.md`
+
+Product backlog dosyası: [`docs/product-backlog.md`](docs/product-backlog.md)
 
 ## Sprint Dokümantasyonu
-Sprint 1 dosyası: `docs/sprint-1.md`
+
+Sprint 1 dokümantasyonu: [`docs/sprint-1.md`](docs/sprint-1.md)
+
+Daily Scrum notları: [`docs/daily-scrum-notes.md`](docs/daily-scrum-notes.md)
+
+Sprint Review dosyası: [`docs/sprint-review.md`](docs/sprint-review.md)
+
+Sprint Retrospective dosyası: [`docs/sprint-retrospective.md`](docs/sprint-retrospective.md)
+
+## Sprint 1 Hedefleri
+
+* Proje fikrinin netleştirilmesi
+* Takım rollerinin belirlenmesi
+* GitHub reposunun oluşturulması
+* README dosyasının hazırlanması
+* Product backlog oluşturulması
+* Sprint 1 dokümantasyonunun hazırlanması
+* Daily Scrum notlarının eklenmesi
+* GitHub Projects üzerinde sprint board oluşturulması
+* İlk arayüz taslaklarının hazırlanması
+* Risk analizi kriterlerinin belirlenmesi
+
+## Sprint 1 Kapsamında Yapılanlar
+
+* Proje reposu oluşturuldu.
+* Takım üyeleri ve rolleri belirlendi.
+* Ürün fikri “Güvenli Nokta AI” olarak netleştirildi.
+* README dosyası proje formatına uygun şekilde düzenlendi.
+* Product backlog oluşturuldu.
+* Sprint 1 dokümantasyonu hazırlandı.
+* Daily Scrum notları eklendi.
+* GitHub Projects üzerinde sprint board oluşturuldu.
+* Ana sayfa, ev bilgileri formu ve risk analizi sonuç ekranı için ilk arayüz taslakları hazırlandı.
+
+## Sprint 1 Ekran Görüntüleri
+
+### Sprint Board
+
+![Sprint Board](assets/screenshots/sprint-board.png)
+
+### Product Backlog
+
+![Product Backlog](assets/screenshots/product-backlog.png)
+
+### Ana Sayfa Taslağı
+
+![Ana Sayfa Taslağı](assets/screenshots/wireframe-home.png)
+
+### Ev Bilgileri Formu Taslağı
+
+![Ev Bilgileri Formu Taslağı](assets/screenshots/wireframe-form.png)
+
+### Risk Analizi Sonuç Ekranı Taslağı
+
+![Risk Analizi Sonuç Ekranı Taslağı](assets/screenshots/wireframe-result.png)
+
+## Ürün Durumu
+
+Sprint 1 sonunda ürünün temel fikri, hedef kitlesi, problem tanımı, çözüm yaklaşımı ve temel özellikleri belirlenmiştir. Kod geliştirme aşamasına geçmeden önce proje yönetimi yapısı oluşturulmuş, backlog hazırlanmış ve ilk arayüz taslakları çıkarılmıştır.
+
+Sprint 2 itibarıyla frontend, backend ve yapay zeka entegrasyonu tarafında geliştirme sürecine başlanması planlanmaktadır.
+
+## Sprint 2 İçin Planlananlar
+
+* Frontend arayüzlerinin React ile geliştirilmeye başlanması
+* Ev bilgileri formunun kodlanması
+* Backend API yapısının kurulması
+* Risk puanı algoritmasının tasarlanması
+* AI öneri sistemi için ilk prototipin hazırlanması
+* Kullanıcı verilerinin veritabanına kaydedilmesi
+* Dashboard ekranının geliştirilmesi
+
+## Proje Yönetimi
+
+Proje süreci GitHub Projects üzerinden takip edilmektedir. Görevler sprint board üzerinde “Todo”, “In Progress” ve “Done” sütunlarıyla yönetilmektedir.
