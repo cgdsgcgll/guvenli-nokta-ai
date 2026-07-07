@@ -120,26 +120,22 @@ Bu sprintte temel amaç, doğrudan kod geliştirmeye başlamadan önce ürün fi
 
 ## Sprint İçinde Tamamlanması Hedeflenen Puan
 
-Sprint 1 için tamamlanması hedeflenen iş yükü: **100 puan**
-
----
+Sprint 1 için hedeflenen toplam iş yükü **100 puan** olarak belirlenmiştir.
 
 ## Puan Tamamlama Mantığı
 
-Sprint 1 kapsamında puanlama; proje fikrinin netleşmesi, product backlog hazırlanması, sprint board oluşturulması, daily scrum notlarının tutulması, README formatının düzenlenmesi ve ilk arayüz taslaklarının hazırlanması üzerinden değerlendirilmiştir.
+Sprint 1 puanlaması; proje fikrinin netleştirilmesi, takım rollerinin belirlenmesi, product backlog hazırlanması, sprint board oluşturulması, daily scrum notlarının tutulması, README düzenlemesi ve ilk arayüz taslaklarının hazırlanması üzerinden yapılmıştır.
 
-| Görev                                           |    Puan |
-| ----------------------------------------------- | ------: |
-| Proje fikrinin netleştirilmesi                  |      15 |
-| Takım rolleri ve ürün bilgilerinin belirlenmesi |      10 |
-| Product backlog oluşturulması                   |      15 |
-| GitHub Projects sprint board hazırlanması       |      15 |
-| Daily Scrum notlarının hazırlanması             |      10 |
-| README formatının düzenlenmesi                  |      15 |
-| İlk arayüz taslaklarının hazırlanması           |      20 |
-| **Toplam**                                      | **100** |
-
----
+| Görev | Puan |
+|---|---:|
+| Proje fikrinin netleştirilmesi | 15 |
+| Takım rolleri ve ürün bilgilerinin belirlenmesi | 10 |
+| Product backlog oluşturulması | 15 |
+| Sprint board hazırlanması | 15 |
+| Daily Scrum notlarının hazırlanması | 10 |
+| README formatının düzenlenmesi | 15 |
+| İlk arayüz taslaklarının hazırlanması | 20 |
+| **Toplam** | **100** |
 
 ## Backlog Dağıtma Mantığı
 
