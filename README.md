@@ -215,17 +215,6 @@ Sprint 1 sonunda ürünün temel fikri, hedef kitlesi, problem tanımı, çözü
 
 Kod geliştirme aşamasına geçmeden önce ürünün ilk ekran taslakları hazırlanmıştır. Sprint 2 itibarıyla frontend, backend ve yapay zeka entegrasyonu tarafında geliştirme sürecine başlanması planlanmaktadır.
 
-### Ana Sayfa Taslağı
-
-![Ana Sayfa Taslağı](assets/screenshots/wireframe-home.png)
-
-### Ev Bilgileri Formu Taslağı
-
-![Ev Bilgileri Formu Taslağı](assets/screenshots/wireframe-form.png)
-
-### Risk Analizi Sonuç Ekranı Taslağı
-
-![Risk Analizi Sonuç Ekranı Taslağı](assets/screenshots/wireframe-result.png)
 
 ---
 
