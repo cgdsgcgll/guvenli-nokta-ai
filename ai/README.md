@@ -1,0 +1,1 @@
+GEMINI_API_KEY="AIzaSyYourActualKeyHere..." bir api key env variable olarak sisteme girilmeli.
