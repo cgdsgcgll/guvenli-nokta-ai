@@ -314,8 +314,147 @@ guvenli-nokta-ai/
 
 ---
 
-## Proje Notu
+---
 
-Bu proje, Google Bootcamp Hackathon süreci kapsamında geliştirilmek üzere planlanmıştır.
+# Sprint 2
 
-Amaç, deprem öncesi hazırlık sürecini daha erişilebilir, anlaşılır ve kişiselleştirilmiş hale getiren yapay zeka destekli bir ürün ortaya çıkarmaktır.
+## Sprint Notları
+
+Sprint 2 kapsamında, Sprint 1’de planlanan Güvenli Nokta AI fikri çalışan bir MVP prototipine dönüştürülmeye başlanmıştır. Bu sprintte temel hedef, kullanıcıdan ev ve deprem hazırlık bilgilerini alan, bu verileri backend tarafında analiz eden ve sonuç ekranında kişisel deprem hazırlık skoru ile öneriler sunan bir yapı oluşturmaktır.
+
+Sprint 2 sonunda frontend arayüzleri geliştirilmiş, backend API oluşturulmuş ve frontend-backend bağlantısı tamamlanmıştır. Kullanıcının girdiği bilgilere göre riskli alanlar, güvenli noktalar, eksik hazırlıklar, öncelikli aksiyonlar ve kişisel öneriler sonuç ekranında gösterilmektedir.
+
+Ayrıca ürünün pazara daha uygun görünmesi için fotoğraf destekli risk kontrolü, akıllı deprem hazırlık kontrol listesi ve aile acil durum planı sayfaları eklenmiştir.
+
+---
+
+## Sprint İçinde Tamamlanması Hedeflenen Puan
+
+Sprint 2 için tamamlanması hedeflenen iş yükü: **100 puan**
+
+---
+
+## Puan Tamamlama Mantığı
+
+| Görev | Puan |
+|---|---:|
+| Frontend ana sayfa geliştirmesi | 10 |
+| Analiz formu geliştirmesi | 15 |
+| Sonuç ekranı geliştirmesi | 15 |
+| Backend API kurulumu | 15 |
+| Frontend-backend bağlantısı | 15 |
+| Risk / hazırlık skoru algoritması | 10 |
+| Fotoğraf destekli risk kontrolü | 10 |
+| Kontrol listesi ve aile planı sayfaları | 10 |
+| **Toplam** | **100** |
+
+---
+
+## Backlog Dağıtma Mantığı
+
+Sprint 2’de öncelik, ürünün temel MVP yapısını ortaya çıkarmak olarak belirlenmiştir. Bu nedenle ilk olarak frontend ekranları, ardından backend API ve frontend-backend bağlantısı geliştirilmiştir.
+
+Sprint 2’de ürünün kullanıcıya değer sunan temel akışı oluşturulmuştur:
+
+1. Kullanıcı ev ve deprem hazırlık bilgilerini girer.
+2. Sistem bu bilgileri backend tarafında analiz eder.
+3. Kullanıcıya deprem hazırlık skoru, riskli alanlar, güvenli noktalar ve kişisel öneriler sunulur.
+
+Gelişmiş görsel yapay zeka entegrasyonu, veritabanı bağlantısı ve PDF rapor indirme gibi ileri özellikler Sprint 3’e aktarılmıştır.
+
+---
+
+## Daily Scrum
+
+Sprint 2 sürecinde takım içi ilerleme Daily Scrum notları ile takip edilmiştir. Yapılan işler, yapılacak işler ve karşılaşılan engeller düzenli olarak değerlendirilmiştir.
+
+| Tarih | Dün Ne Yapıldı? | Bugün Ne Yapılacak? | Engel Var mı? |
+|---|---|---|---|
+| 06.07.2026 | Sprint 2 hedefleri belirlendi. | Frontend görevleri başlatılacak. | Görev dağılımı netleştirilecek. |
+| 08.07.2026 | Ana sayfa ve form ekranı üzerinde çalışıldı. | Sonuç ekranı geliştirilecek. | Backend bağlantısı henüz yok. |
+| 10.07.2026 | Frontend ekranları büyük ölçüde tamamlandı. | Backend API kurulacak. | API veri yapısı netleştirilecek. |
+| 12.07.2026 | Backend API oluşturuldu. | Frontend-backend bağlantısı yapılacak. | Test süreci gerekiyor. |
+| 15.07.2026 | Analiz sonucu ekranı backend verisiyle çalıştırıldı. | Fotoğraf destekli risk kontrolü eklenecek. | Görsel AI entegrasyonu Sprint 3’e aktarılabilir. |
+| 18.07.2026 | Kontrol listesi ve aile planı sayfaları eklendi. | README ve ekran görüntüleri hazırlanacak. | Sprint teslim formatı tamamlanmalı. |
+| 19.07.2026 | Kodlar GitHub’a yüklendi. | Sprint 2 dokümantasyonu tamamlanacak. |  |
+
+---
+
+## Sprint Board Updates
+
+Sprint 2 görevleri Todo, In Progress ve Done mantığıyla takip edilmiştir.
+
+### Done
+
+- Frontend ana sayfa geliştirildi.
+- Ev ve deprem hazırlık analiz formu geliştirildi.
+- Fotoğraf yükleme ve ön izleme alanı eklendi.
+- Sonuç / analiz raporu ekranı geliştirildi.
+- Kontrol listesi sayfası oluşturuldu.
+- Aile acil durum planı sayfası oluşturuldu.
+- Express backend API oluşturuldu.
+- `/api/health` endpoint’i oluşturuldu.
+- `/api/analyze` endpoint’i oluşturuldu.
+- Frontend-backend bağlantısı yapıldı.
+- Risk ve hazırlık skoru hesaplama mantığı eklendi.
+- Sprint 2 kodları GitHub’a yüklendi.
+
+### In Progress
+
+- AI destekli öneri modülünün geliştirilmesi
+- Fotoğraf destekli risk kontrolünün geliştirilmesi
+
+
+
+---
+
+## Ürün Durumu
+
+Sprint 2 sonunda Güvenli Nokta AI için çalışan bir MVP prototipi oluşturulmuştur. Kullanıcı uygulama üzerinden ev bilgilerini, deprem hazırlık durumunu ve aile yapısını girebilmektedir. Sistem bu bilgileri backend tarafında analiz ederek kişisel deprem hazırlık skoru üretmektedir.
+
+Sonuç ekranında kullanıcıya:
+
+- Deprem hazırlık skoru
+- Riskli alanlar
+- Güvenli nokta önerileri
+- Eksik hazırlıklar
+- Öncelikli aksiyonlar
+- Fotoğraf destekli risk kontrolü
+- AI destekli kişisel öneriler
+
+sunulmaktadır.
+
+### Ana Sayfa
+
+![Sprint 2 Ana Sayfa](assets/screenshots/sprint-2-home-page.png)
+
+### Analiz Formu
+
+![Sprint 2 Form Sayfası](assets/screenshots/sprint-2-form-page.png)
+
+### Sonuç Ekranı
+
+![Sprint 2 Sonuç Ekranı](assets/screenshots/sprint-2-result-page.png)
+
+### Fotoğraf Destekli Risk Kontrolü
+
+![Sprint 2 Fotoğraf Destekli Risk Kontrolü](assets/screenshots/sprint-2-photo-risk-control.png)
+
+### Kontrol Listesi
+
+![Sprint 2 Kontrol Listesi](assets/screenshots/sprint-2-checklist.png)
+
+### Aile Acil Durum Planı
+
+![Sprint 2 Aile Acil Durum Planı](assets/screenshots/sprint-2-emergency-plan.png)
+
+---
+
+## Sprint Review
+
+Sprint 2 sonunda ürünün temel MVP akışı başarıyla oluşturulmuştur. Kullanıcıdan alınan bilgiler backend API’ye gönderilmekte, backend tarafında analiz edilmekte ve sonuç ekranında kullanıcıya kişisel bir deprem hazırlık raporu sunulmaktadır.
+
+Bu sprintte frontend ve backend bağlantısı tamamlanmış, analiz formu genişletilmiş, sonuç ekranı daha kapsamlı hale getirilmiş ve ürünün pazar değerini artırmak için kontrol listesi ile aile acil durum planı sayfaları eklenmiştir.
+
+
+---
