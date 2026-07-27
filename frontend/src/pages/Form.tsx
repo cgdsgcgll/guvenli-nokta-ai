@@ -10,6 +10,7 @@ export default function FormPage() {
   const [loadingText, setLoadingText] = useState('');
   const [error, setError] = useState('');
   const [preview, setPreview] = useState('');
+  const [roomImageFile, setRoomImageFile] = useState<File | null>(null);
 
   const [formData, setFormData] = useState({
     roomCount: '',
@@ -52,6 +53,7 @@ export default function FormPage() {
 
     if (!file) return;
 
+    setRoomImageFile(file);
     setFormData((prev) => ({
       ...prev,
       roomPhotoName: file.name
@@ -77,27 +79,28 @@ export default function FormPage() {
     }, 600);
 
     try {
+      // FormData ile gönder: metin alanları + opsiyonel görsel dosyası
+      const payload = new FormData();
+      payload.append('roomCount', String(Number(formData.roomCount)));
+      payload.append('homeType', formData.homeType);
+      payload.append('floorLevel', formData.floorLevel);
+      payload.append('largeFurniture', formData.largeFurniture);
+      payload.append('furnitureFixed', formData.furnitureFixed);
+      payload.append('glassRisk', formData.glassRisk);
+      payload.append('exitBlocked', formData.exitBlocked);
+      payload.append('earthquakeBag', formData.earthquakeBag);
+      payload.append('bagComplete', formData.bagComplete);
+      payload.append('familyRisk', formData.familyRisk);
+      payload.append('meetingPoint', formData.meetingPoint);
+      payload.append('gasElectricKnowledge', formData.gasElectricKnowledge);
+      if (roomImageFile) {
+        payload.append('roomImage', roomImageFile);
+      }
+
       const response = await fetch('http://localhost:5001/api/analyze', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          roomCount: Number(formData.roomCount),
-          homeType: formData.homeType,
-          floorLevel: formData.floorLevel,
-          largeFurniture: formData.largeFurniture,
-          furnitureFixed: formData.furnitureFixed,
-          glassRisk: formData.glassRisk,
-          exitBlocked: formData.exitBlocked,
-          earthquakeBag: formData.earthquakeBag,
-          bagComplete: formData.bagComplete,
-          familyRisk: formData.familyRisk,
-          meetingPoint: formData.meetingPoint,
-          gasElectricKnowledge: formData.gasElectricKnowledge,
-          hasRoomImage: Boolean(formData.roomPhotoName),
-          roomPhotoName: formData.roomPhotoName
-        })
+        // Content-Type header'ı yok — browser boundary'yi otomatik ayarlar
+        body: payload
       });
 
       if (!response.ok) {
