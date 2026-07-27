@@ -97,7 +97,7 @@ export default function FormPage() {
         payload.append('roomImage', roomImageFile);
       }
 
-      const response = await fetch('http://localhost:5001/api/analyze', {
+      const response = await fetch('http://98.88.72.7:9004/api/analyze', {
         method: 'POST',
         // Content-Type header'ı yok — browser boundary'yi otomatik ayarlar
         body: payload
@@ -121,7 +121,7 @@ export default function FormPage() {
     } catch (err) {
       clearInterval(interval);
       setIsSubmitting(false);
-      setError('Backend bağlantısı kurulamadı. Backend server çalışıyor mu kontrol edin.');
+      setError('Backend bağlantısı kurulamadı. Sunucu (98.88.72.7:9004) çalışıyor mu kontrol edin.');
       console.error(err);
     }
   };

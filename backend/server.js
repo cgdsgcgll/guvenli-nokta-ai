@@ -5,14 +5,19 @@ const FormData = require("form-data");
 const fetch = require("node-fetch");
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 9004;
 const AI_SERVICE_URL = process.env.AI_SERVICE_URL || "http://98.88.72.7:9005";
 
 // Fotoğraf belleğe alınır (diske yazılmaz)
 const upload = multer({ storage: multer.memoryStorage() });
 
 app.use(cors({
-  origin: ["http://localhost:5173", "http://127.0.0.1:5173"],
+  origin: [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://98.88.72.7:5173",
+    "http://98.88.72.7"
+  ],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"]
 }));
