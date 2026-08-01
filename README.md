@@ -23,7 +23,6 @@ GitHub Repository: https://github.com/cgdsgcgll/guvenli-nokta-ai
 | Ahmet Çağdaş Geçgül | Scrum Master |
 | Atagün Körükmez | Product Owner |
 | Ömer Faruk Yurtdakal | Developer |
-| Nesibe Şeyma Can | Developer |
 | Berat Karagöl | Developer |
 
 ---
