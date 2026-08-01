@@ -490,35 +490,135 @@ Fotoğraf destekli risk kontrolü özelliği temel seviyede eklenmiştir. Gerçe
 
 ---
 
-# Proje Klasör Yapısı
+---
+
+# Sprint 3
+
+## Sprint Notları
+
+Sprint 3, projenin final teslim sprinti olarak planlanmıştır. Bu sprintte temel amaç; Sprint 2 sonunda çalışan MVP haline gelen Güvenli Nokta AI ürününü son kez test etmek, dokümantasyonu tamamlamak, ürün demo videosunu hazırlamak ve final teslim sürecini eksiksiz şekilde tamamlamaktır.
+
+Bu sprintte yeni büyük özellik geliştirmek yerine, mevcut ürünün sunulabilir hale getirilmesine odaklanılmıştır. Uygulamanın ana sayfa, analiz formu, sonuç ekranı, fotoğraf destekli risk kontrolü, kontrol listesi ve aile acil durum planı ekranları kontrol edilmiştir.
+
+Ayrıca GitHub README dosyası güncellenmiş, ürün ekran görüntüleri eklenmiş, Sprint 1 ve Sprint 2 dokümantasyonu tamamlanmış, final demo videosu hazırlanmış ve YouTube’a liste dışı olarak yüklenmiştir.
+
+---
+
+## Sprint İçinde Tamamlanması Hedeflenen Puan
+
+Sprint 3 için tamamlanması hedeflenen iş yükü: **100 puan**
+
+---
+
+## Puan Tamamlama Mantığı
+
+| Görev | Puan |
+|---|---:|
+| Ürün akışının baştan sona test edilmesi | 15 |
+| Frontend ekranlarının son kontrolü | 10 |
+| Backend API çalışma kontrolü | 10 |
+| README dokümantasyonunun tamamlanması | 15 |
+| Sprint görsellerinin ve ürün ekran görüntülerinin kontrol edilmesi | 10 |
+| Demo video senaryosunun hazırlanması | 10 |
+| Final demo videosunun kaydedilmesi | 15 |
+| YouTube’a liste dışı olarak yükleme ve link kontrolü | 10 |
+| Final teslim formu için gerekli bilgilerin hazırlanması | 5 |
+| **Toplam** | **100** |
+
+---
+
+## Backlog Dağıtma Mantığı
+
+Sprint 3’te öncelik, ürünün final teslim için hazır hale getirilmesi olarak belirlenmiştir. Bu nedenle geliştirme işleri yerine test, dokümantasyon, demo videosu ve teslim hazırlıkları önceliklendirilmiştir.
+
+Sprint 3 görevleri şu şekilde dağıtılmıştır:
+
+- Uygulamanın çalışan MVP akışının test edilmesi
+- Frontend ve backend bağlantısının kontrol edilmesi
+- README dosyasının Sprint 1, Sprint 2 ve Sprint 3 bilgileriyle güncellenmesi
+- Ürün ekran görüntülerinin GitHub’a eklenmesi
+- Final demo videosu için anlatım akışının hazırlanması
+- Demo videosunun 3 dakikalık ürün sunumu olarak kaydedilmesi
+- YouTube’a liste dışı olarak yüklenmesi
+- GitHub repo linki ve video linkinin teslim formu için hazırlanması
+
+Gelişmiş yapay zeka entegrasyonu, veritabanı bağlantısı, PDF rapor indirme ve kullanıcı dashboard ekranı gibi ileri seviye özellikler ürünün sonraki geliştirme aşamalarına bırakılmıştır.
+
+---
+
+## Daily Scrum
+
+Sprint 3 sürecinde final teslim hazırlıkları takip edilmiştir.
+
+| Tarih | Dün Ne Yapıldı? | Bugün Ne Yapılacak? | Engel Var mı? |
+|---|---|---|---|
+| 20.07.2026 | Sprint 2 tamamlandı. | Sprint 3 final teslim görevleri belirlenecek. | Gelişmiş AI entegrasyonu yetişmeyebilir. |
+| 23.07.2026 | Ürün ekranları kontrol edildi. | README ve repo düzeni gözden geçirilecek. | Bazı görsellerin eklenmesi gerekiyor. |
+| 27.07.2026 | Frontend ve backend çalıştırılarak test edildi. | Demo video senaryosu hazırlanacak. | Video süresinin 3 dakikayı geçmemesi gerekiyor. |
+| 31.07.2026 | Demo video akışı hazırlandı. | Final demo videosu kaydedilecek. | Ses ve görüntü kalitesi kontrol edilmeli. |
+| 01.08.2026 | Final demo videosu kaydedildi ve YouTube’a yüklendi. | Teslim formu için YouTube ve GitHub linkleri kontrol edilecek. | Takım bilgileri ve form alanları tamamlanmalı. |
+| 02.08.2026 | GitHub README ve video linki kontrol edildi. | Ürün teslim formu gönderilecek. | Engel bulunmuyor. |
+
+---
+
+## Sprint Board Updates
+
+Sprint 3 görevleri final teslim odaklı olarak takip edilmiştir.
+
+### Done
+
+- Ürün akışı baştan sona test edildi.
+- Frontend ekranları kontrol edildi.
+- Backend API çalıştırıldı ve test edildi.
+- GitHub README dosyası güncellendi.
+- Sprint 1 ve Sprint 2 dokümantasyonu tamamlandı.
+- Sprint 2 ürün ekran görüntüleri README’ye eklendi.
+- Sprint 3 final teslim bölümü hazırlandı.
+- Demo video senaryosu hazırlandı.
+- Final demo videosu kaydedildi.
+- Video YouTube’a liste dışı olarak yüklendi.
+- YouTube linki gizli sekmede test edildi.
+- GitHub repository linki kontrol edildi.
+- Ürün teslim formu için gerekli bilgiler hazırlandı.
+
+### In Progress
+
+- Final teslim formunun doldurulması
+- Takım üyelerinin bireysel kapanış formu kontrolü
+
+### Sprint Sonrası Geliştirme Fikirleri
+
+- Gemini Vision ile gerçek görsel analiz entegrasyonu
+- Kullanıcı verilerinin veritabanına kaydedilmesi
+- PDF rapor indirme özelliği
+- Kullanıcı dashboard ekranı
+- AI chatbot / hazırlık asistanı
+- Mobil uyum ve UI/UX iyileştirmeleri
+
+---
+
+## Ürün Durumu
+
+Sprint 3 sonunda Güvenli Nokta AI, final demo için çalışır ve sunulabilir bir MVP haline getirilmiştir.
+
+Ürünün mevcut halinde kullanıcı:
+
+- Ana sayfa üzerinden analize başlayabilir.
+- Ev ve deprem hazırlık bilgilerini forma girebilir.
+- Oda fotoğrafı yükleyebilir.
+- Deprem hazırlık skorunu görebilir.
+- Riskli alanları, güvenli noktaları ve eksik hazırlıkları inceleyebilir.
+- AI destekli kişisel öneriler alabilir.
+- Akıllı deprem hazırlık kontrol listesini görüntüleyebilir.
+- Aile acil durum planı önerilerini inceleyebilir.
+
+Final demo videosunda ürünün bu akışı 3 dakikalık bir ürün sunumu olarak gösterilmiştir.
+
+### Final Demo Videosu
+
+Video YouTube’a liste dışı olarak yüklenmiştir.
+
+Demo Video Linki:
 
 ```text
-guvenli-nokta-ai/
-│
-├── README.md
-│
-├── docs/
-│   └── product-backlog.md
-│
-├── assets/
-│   └── screenshots/
-│       ├── product-backlog.png
-│       ├── sprint-board.png
-│       ├── daily-scrum.png
-│       ├── daily-scrum-meeting.png
-│       ├── wireframe-home.png
-│       ├── wireframe-form.png
-│       ├── wireframe-result.png
-│       ├── sprint-2-home-page.png
-│       ├── sprint-2-form-page.png
-│       ├── sprint-2-result-page.png
-│       ├── sprint-2-photo-risk-control.png
-│       ├── sprint-2-checklist.png
-│       ├── sprint-2-emergency-plan.png
-│       ├── sprint2-board.png
-│       ├── daily2-scrum.png
-│       └── daily-scrum-meeting2.png
-│
-├── frontend/
-├── backend/
-└── ai/
+(https://www.youtube.com/watch?v=BFENEN2ZvAA)
