@@ -547,6 +547,10 @@ Gelişmiş yapay zeka entegrasyonu, veritabanı bağlantısı, PDF rapor indirme
 
 ## Daily Scrum
 
+### Sprint 3 Daily Scrum Görseli
+
+![Sprint 3 Daily Scrum](assets/screenshots/sprint3-daily-scrum.png)
+
 Sprint 3 sürecinde final teslim hazırlıkları takip edilmiştir.
 
 | Tarih | Dün Ne Yapıldı? | Bugün Ne Yapılacak? | Engel Var mı? |
@@ -561,6 +565,10 @@ Sprint 3 sürecinde final teslim hazırlıkları takip edilmiştir.
 ---
 
 ## Sprint Board Updates
+
+### Sprint 3 Board Görseli
+
+![Sprint 3 Board](assets/screenshots/sprint3-board.png)
 
 Sprint 3 görevleri final teslim odaklı olarak takip edilmiştir.
 
