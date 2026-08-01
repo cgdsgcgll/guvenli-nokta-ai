@@ -621,4 +621,4 @@ Video YouTube’a liste dışı olarak yüklenmiştir.
 Demo Video Linki:
 
 ```text
-(https://www.youtube.com/watch?v=BFENEN2ZvAA)
+https://www.youtube.com/watch?v=BFENEN2ZvAA
